@@ -1,9 +1,8 @@
 package com.learning.sorting;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class HeapSort {
+public class HeapSort_Updated {
 
     public void sort(int arr[])
     {
@@ -59,7 +58,7 @@ public class HeapSort {
     {
         int arr[] = { 0,11, 20, 9, 15, 6, 10,0 };
 
-        HeapSort hs = new HeapSort();
+        HeapSort_Updated hs = new HeapSort_Updated();
         hs.sort(arr);
 
         System.out.println("Sorted array is");
